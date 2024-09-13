@@ -101,7 +101,7 @@ const Login = () => {
       <Header/>
       <div className='absolute'>
 
-      <img  className='fixed h-screen object-cover' src="https://assets.nflxext.com/ffe/siteui/vlv3/04bef84d-51f6-401e-9b8e-4a521cbce3c5/null/IN-en-20240903-TRIFECTA-perspective_0d3aac9c-578f-4e3c-8aa8-bbf4a392269b_large.jpg"/>
+      <img  className='fixed h-screen w-screen object-cover' src="https://assets.nflxext.com/ffe/siteui/vlv3/04bef84d-51f6-401e-9b8e-4a521cbce3c5/null/IN-en-20240903-TRIFECTA-perspective_0d3aac9c-578f-4e3c-8aa8-bbf4a392269b_large.jpg"/>
       </div>
    
         <form onSubmit={(e)=>e.preventDefault()} className='text-white w-full md:w-4/12 absolute p-12 bg-black my-36 mx-auto right-0 left-0 bg-opacity-80'>
