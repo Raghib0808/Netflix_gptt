@@ -20,7 +20,7 @@ const Footer = () => {
           </a>
           
           <a 
-            href="https://github.com/raghib" 
+            href="https://github.com/Raghib0808" 
             target="_blank" 
             rel="noopener noreferrer"
             className="hover:text-red-500 transition-colors"
@@ -30,7 +30,7 @@ const Footer = () => {
           </a>
           
           <a 
-            href="https://linkedin.com/in/raghib" 
+            href="https://www.linkedin.com/in/raghib-anees-ansari-b6b293254/" 
             target="_blank" 
             rel="noopener noreferrer"
             className="hover:text-red-500 transition-colors"
