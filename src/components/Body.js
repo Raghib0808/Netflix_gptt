@@ -1,28 +1,17 @@
-import React, { useEffect } from 'react'
-import Browse from './Browse'
-import Login from './Login'
-import {createBrowserRouter, RouterProvider, useNavigate} from "react-router-dom"
+import React from 'react';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import Browse from './Browse';
+import Login from './Login';
+import MovieDetail from './MovieDetail'; // Movie detail page
 
-const Body = () => {
+const appRouter = createBrowserRouter([
+  { path: '/', element: <Login /> },
+  { path: '/browse', element: <Browse /> },
+  { path: '/movie/:id', element: <MovieDetail /> }, // Route now uses movie ID
+]);
 
-    const appRouter=createBrowserRouter([
-        {
-            path:"/",
-            element:<Login/>
-        },
-        {
-            path:"/browse",
-            element:<Browse/>
-        },
-    ]);
+const App = () => {
+  return <RouterProvider router={appRouter} />;
+};
 
-
-
-  return (
-    <div>
-     <RouterProvider router={appRouter} />
-    </div>
-  )
-}
-
-export default Body
+export default App;

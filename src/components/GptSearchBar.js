@@ -21,9 +21,14 @@ const GptSearchBar = () => {
         console.log(kkey);
         
        const response=await axios({
-            url:'https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key='+kkey,
+            url:'https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=AIzaSyDWcVKbrdaYQztky2QtaX9VqtuzfML2-Ac',
             method:"post",
-            data:{"contents":[{"parts":[{"text":"Act as a movie recommendation system and recommond some "+rag +" movies . Only give me names of 5 movies, comma seperated like the example given ahead. Example Result: Gadar,Sholay,Don,Inside Out,Golmal"}]}]},
+            data:{"contents":[{"parts":
+              [{"text":"Act as a movie recommendation system and recommond some "+rag +" movies . Only give me names of 5 movies, comma seperated like the example given ahead. Example Result: Gadar,Sholay,Don,Inside Out,Golmal"}]
+            
+            }]
+          
+          },
            
             
         })
