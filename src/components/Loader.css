@@ -22,7 +22,7 @@
 
 
  body {
-background-color: rgb(247,244,237);
+background-color: white;
   /* background-image: url('https://images.squarespace-cdn.com/content/v1/5afb5392ec4eb75d4d415f49/1553869193306-PO1B0RP8CMXBQP9FQ0C5/Minimalist+Scafells+v8+Tester+BW.jpeg?format=750w'); */
   background-size: cover;
   background-repeat: no-repeat;
@@ -48,7 +48,7 @@ html {
   position: fixed;
   inset: 0;
   z-index: 999;
-  background-color: var(--loader-bg);
+  background-color: black;
   display: grid;
   place-content: center;
   transition: opacity .4s ease-in-out, visibility .4s ease-in-out;
