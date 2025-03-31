@@ -4,6 +4,7 @@ import MovieListGrid from './MovieListGrid';
 import VideoBackground from './VideoBackground';
 
 const Similar = () => {
+    
     const { id: movieId } = useParams(); // Get movieId from URL params
     const [movies, setMovies] = useState([]);
     const [selectedMovieId, setSelectedMovieId] = useState(movieId); // Set initial movie ID from params
