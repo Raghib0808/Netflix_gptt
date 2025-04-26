@@ -97,7 +97,7 @@ const Login = () => {
       <div className='absolute'>
         <img className='fixed h-screen w-screen object-cover' src="https://analyticsindiamag.com/wp-content/uploads/2019/05/apps.55787.9007199266246365.687a10a8-4c4a-4a47-8ec5-a95f70d8852d-1540x866.jpg"/>
       </div>
-   
+   {/* fixed */}
         <form onSubmit={(e)=>e.preventDefault()} className='text-white w-full md:w-4/12 absolute p-12 bg-black my-36 mx-auto right-0 left-0 bg-opacity-80'>
         <h1 className='font-bold text-3xl mb-4'>{Sign?"Sign-In":"Sign-Up"}</h1>
 
